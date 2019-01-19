@@ -20,3 +20,19 @@ class Manager:
 
     def terminate(self):
         pass
+
+    def menu(self):
+        os.system("cls")                        #clean screen
+
+        print('-----------------MENU-----------------')
+        print('1 - Add')
+        print('2 - Update')
+        print('3 - Remove')
+        print('4 - List')
+        print('5 - End')
+
+    def main(self):
+        self.menu()
+
+contacts_manager = Manager()
+contacts_manager.main()
