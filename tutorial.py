@@ -30,6 +30,7 @@ class Manager:
         print('3 - Remove')
         print('4 - List')
         print('5 - End')        
+        print()
 
     def main(self):
         self.menu()
